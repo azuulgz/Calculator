@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    position: absolute;
+    height: 47vh; /* Espacio desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    font-size: 30px;
+    color: #5f4a28;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #f0d6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.calculator {
+    background-color:#c6e99f;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color:transparent;
+    color: green;
+    cursor: pointer;
+    margin: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: green;
+}
+
+section.title .linkedin {
+    font-weight: 100;
+    display: flex;
+}
